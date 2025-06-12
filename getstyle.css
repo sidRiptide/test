@@ -1,0 +1,110 @@
+
+.h-image{
+    background-image: url("https://media.istockphoto.com/id/1297780279/photo/a-growing-city-needs-good-quality-buildings.jpg?s=612x612&w=0&k=20&c=6zcbi2f6EdY1ySSvBUdwMABylplt_R8kqQ680PYrLM8=");
+    background-size: cover;
+    height: 730px;
+    margin: 0;
+    background-position: center;
+
+
+}
+.h-text {
+    color: white;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size:30px ;
+    top:20%;
+    /*animation-name: slideUp;*/
+    animation-duration: 2s;
+
+}
+@keyframes slideUp {
+    from{transform: translateY(300%)}
+
+}
+@keyframes rotate {
+    100%{transform: rotateX(360deg)}
+
+}
+@keyframes slideDown {
+    50%{transform: translateY(70%)}
+
+}
+.h-text p{
+
+    font-weight: normal;
+    font-size: small;
+    align-content: center;
+    max-width: 500px;
+    margin-left: 550px;
+    color: darkslategrey;
+}
+.navigation{
+    display: flex;
+    top: 0;
+    text-align: center;
+    position: relative;
+}
+.navigation ul{
+    display: flex;
+    margin-left: 600px
+;
+
+
+}
+.navigation nav ul li {
+    list-style-type: none;
+    gap: 2px;
+    padding: 5px;
+
+}
+.navigation h3{
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    border-radius: 20px;
+    background: transparent;
+    font-size: 25px;
+    color: white;
+    padding: 5px 20px;
+    border: solid orange;
+
+
+}
+button:hover{
+    animation-name: glow;
+    animation-duration: 1s;
+}
+@keyframes glow {
+    30%{box-shadow: 0 0 20px yellow}
+
+}
+nav a:hover{
+    text-decoration: underline orange;
+
+
+}
+a.active {
+
+
+    text-decoration: underline solid orange;
+
+}
+hr{
+    font-weight: bold;
+    font-size: 5px;
+    border-radius: 20px;
+    max-width: 200px;
+    margin: auto;
+    color: orange;
+}
+
